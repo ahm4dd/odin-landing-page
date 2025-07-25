@@ -51,6 +51,13 @@ a {
     margin-right: auto;
 }
 
+.first-section,
+.second-section,
+.three-section,
+.four-section {
+    padding: 48px 0 48px 0;
+}
+
 .first-section-container {
     margin: auto;
     width: 70%;
@@ -59,9 +66,9 @@ a {
     justify-content: center;
 }
 
+
 .first-section {
     justify-content: center;
-    padding: 18px;
     padding-bottom: 160px;
 }
 
@@ -111,7 +118,6 @@ img {
     display: flex;
     flex-direction: column;
     gap: 64px;
-    padding: 48px;
     color: #5e5e5e;
     text-align: center;
 }
@@ -151,7 +157,6 @@ img {
     font-style: italic;
     display: flex;
     flex-direction: column;
-    padding: 32px;
     width: 100%;
 }
 
@@ -168,4 +173,34 @@ img {
     justify-content: center;
     align-self: center;
     flex-direction: column
+}
+
+.four-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up-container-four {
+    flex: 0 1 auto;
+    border-radius: 8px;
+    display: flex;
+    gap: 32px;
+    background-color: #3882F6;
+    width: 700px;
+    padding: 32px;
+}
+
+.border {
+    border: 2px solid white;
+}
+
+.sign-up-bar {
+    display: flex;
+    margin-right: auto;
+}
+
+.bar-header {
+    font-size: 24px;
+    font-weight: 500;
 }
