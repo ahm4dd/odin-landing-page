@@ -54,8 +54,13 @@ a {
 .first-section,
 .second-section,
 .three-section,
-.four-section {
+.four-section
+{
     padding: 48px 0 48px 0;
+}
+
+.footer {
+    padding: 16px 0 16px 0;
 }
 
 .first-section-container {
@@ -203,4 +208,10 @@ img {
 .bar-header {
     font-size: 24px;
     font-weight: 500;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
